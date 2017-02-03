@@ -3,8 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.andyzhou.ipLocatorDemo.MainActivity">
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:id="@+id/ip_location"
+        android:icon="@drawable/ic_settings_ethernet_white_24dp"
+        android:title="@string/get_network_location"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/gps_location"
+        android:icon="@drawable/ic_gps_fixed_white_24dp"
+        android:title="@string/get_gps_location"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/clear_screen"
+        android:icon="@drawable/ic_delete_white_24dp"
+        android:title="@string/clear_screen"
+        app:showAsAction="ifRoom" />
 </menu>

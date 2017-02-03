@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">IP Locator</string>
     <string name="action_settings">Settings</string>
+    <string name="get_gps_location">Get GPS Location</string>
+    <string name="get_network_location">Get network location</string>
+    <string name="welcome">Welcome\n</string>
+    <string name="clear_screen">Clear Screen</string>
 </resources>
